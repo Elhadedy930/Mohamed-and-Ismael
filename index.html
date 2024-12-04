@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد واسماعيل للأدوات المنزلية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+                <li><a href="#">عربة التسوق</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <h1>مرحبًا بكم في موقع محمد واسماعيل للأدوات المنزلية</h1>
+
+    <!-- قائمة المنتجات -->
+    <section class="products">
+        <h2>منتجاتنا</h2>
+        <div class="product">
+            <img src="product-image1.jpg" alt="مكواة بخار" />
+            <h3>مكواة بخار</h3>
+            <p>سعر: 200 جنيه</p>
+            <button>إضافة إلى العربة</button>
+        </div>
+        <div class="product">
+            <img src="product-image2.jpg" alt="مروحة سقف" />
+            <h3>مروحة سقف</h3>
+            <p>سعر: 500 جنيه</p>
+            <button>إضافة إلى العربة</button>
+        </div>
+    </section>
+
+</body>
+</html>
+<section class="products">
+    <h2>منتجاتنا</h2>
+    <div class="product">
+        <img src="product-image1.jpg" alt="مكواة بخار" />
+        <h3>مكواة بخار</h3>
+        <p>سعر: 200 جنيه</p>
+        <button>إضافة إلى العربة</button>
+    </div>
+    <div class="product">
+        <img src="product-image2.jpg" alt="مروحة سقف" />
+        <h3>مروحة سقف</h3>
+        <p>سعر: 500 جنيه</p>
+        <button>إضافة إلى العربة</button>
+    </div>
+    <div class="product">
+        <img src="product-image3.jpg" alt="غسالة صحون" />
+        <h3>غسالة صحون</h3>
+        <p>سعر: 1200 جنيه</p>
+        <button>إضافة إلى العربة</button>
+    </div>
+</section>
+<style>
+    /* تنسيق شريط التنقل */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background-color: #333;
+    }
+    nav ul li {
+        display: inline;
+        margin: 10px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    /* تنسيق قسم المنتجات */
+    .products {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .product {
+        text-align: center;
+        width: 200px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .product h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .product p {
+        font-size: 16px;
+        color: #333;
+    }
+
+    .product button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .product button:hover {
+        background-color: #45a049;
+    }
+</style>
+<li><a href="#contact">تواصل معنا</a></li>
+<nav>
+    <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">المنتجات</a></li>
+        <li><a href="#contact">تواصل معنا</a></li> <!-- هذا هو الرابط الجديد -->
+        <li><a href="#">عربة التسوق</a></li>
+    </ul>
+</nav>
+<section id="contact" class="contact">
+    <h2>تواصل معنا</h2>
+    <p>إذا كان لديك أي استفسار، يمكنك التواصل معنا عبر النموذج التالي:</p>
+    <form>
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">إرسال</button>
+    </form>
+</section>
+/* تنسيق قسم تواصل معنا */
+.contact {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+<section class="about">
+    <h2>عن الموقع</h2>
+    <p>نحن نقدم أفضل الأدوات المنزلية عبر الإنترنت بأسعار تنافسية.</p>
+</section>
+<section id="cart">
+    <h2>عربة التسوق</h2>
+    <p>لا توجد منتجات في عربة التسوق حالياً.</p>
+</section>
+<section class="products">
+    <h2>منتجاتنا</h2>
+    <div class="product">
+        <img src="images/product1.jpg" alt="منتج 1">
+        <h3>منتج 1</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف إلى السلة</button>
+    </div>
+    <div class="product">
+        <img src="images/product2.jpg" alt="منتج 2">
+        <h3>منتج 2</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف إلى السلة</button>
+    </div>
+</section>
+<img src="images/product1.jpg" alt="منتج 1">
+<section class="products">
+    <h2>منتجاتنا</h2>
+    <div class="product">
+        <img src="images/product1.jpg" alt="منتج 1">
+        <h3>منتج 1</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف إلى السلة</button>
+    </div>
+    <div class="product">
+        <img src="images/product2.jpg" alt="منتج 2">
+        <h3>منتج 2</h3>
+        <p>وصف مختصر للمنتج.</p>
+        <button>أضف إلى السلة</button>
+    </div>
+</section>
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
